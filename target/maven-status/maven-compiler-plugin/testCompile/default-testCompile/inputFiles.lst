@@ -1,0 +1,8 @@
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/pages/utils/PageObject.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/HelloWorldSelenium.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/steps/leiloes/LeiloesTest.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/pages/leiloes/CadastroLeilaoPage.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/pages/leiloes/LeiloesPage.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/pages/login/LoginPage.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/steps/login/LoginTest.java
+/home/lorenae/POC/Selenium-POC/src/test/java/br/com/CIandT/leilao/pages/lance/LancesPage.java
