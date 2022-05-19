@@ -29,5 +29,5 @@ mvn clean install
 
 Rode o comando para executar o teste de exemplo:
 ```
-mvn test -Dtest=run
+mvn test
 ```
