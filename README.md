@@ -1,24 +1,33 @@
 # POC_Web_Selenium_Java_JUnit
 
-Configurações para o Linux Ubuntu:
-Baixar o driver do browser e colocar na pasta de drivers dentro do projeto (chrome driver)
-Instalar as dependências do pom com mvn
-```
-mvn install
-```
+## Ferramentas utilizadas:
+- [Maven](https://maven.apache.org/ "Maven")
+- [Java](https://www.java.com/pt_BR/ "Java")
+- [JUnit](https://junit.org/junit4/ "JUnit")
+- [Selenium](https://www.seleniumhq.org/ "Selenium")
+- [ChromeDriver](https://chromedriver.chromium.org/downloads "ChromeDriver")
+- [Cucumber](https://cucumber.io/ "Cucumber")
+- [PageFactory](https://github.com/SeleniumHQ/selenium/wiki/PageFactory "PageFactory")
+- [PageObject (pattern)](https://martinfowler.com/bliki/PageObject.html "PageObject")
 
-No linux para permissionar o chrome driver para execução pelo selenium use o comando no terminal dentro da pasta do projeto leilao/drivers
+### ChromeDriver
+
+Faça o download do chromedriver adequado para o seu sistema operacional e adicione no diretório resources/drivers.
+Local para download: https://chromedriver.chromium.org/downloads
+
+### Configurações para o Linux Ubuntu:
+
+Caso o Selenium não consiga iniciar o driver no linux para permissionar o chrome driver use o comando no terminal dentro da pasta do projeto resources/drivers:
 ```
 chmod +x chromedriver
 ```
 
-Para rodar o testes de exemplo com selenium antes suba a aplicação local em : http://localhost:8080/leiloes
+Instale as dependências do pom com Maven:
 ```
-acesse src > java > br.com.CIandT.leilao > Run na classe 'LeilaoAplication'
+mvn clean install
 ```
 
-Após a aplicação funcionando em ambiente local
-Rode o comando para executar os testes de exemplo
+Rode o comando para executar o teste de exemplo:
 ```
-mvn test
+mvn test -Dtest=run
 ```
