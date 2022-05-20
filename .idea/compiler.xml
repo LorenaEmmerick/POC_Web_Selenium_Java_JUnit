@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="POC_Web_Selenium_Java_JUnit" target="1.8" />
+      <module name="POC_Web_Selenium_Java_JUnit" target="9" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

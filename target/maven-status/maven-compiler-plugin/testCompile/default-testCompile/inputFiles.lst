@@ -5,4 +5,7 @@
 /home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/pages/EcommerceMainPageElementMap.java
 /home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/util/Utils.java
 /home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/steps/EcommerceMainSteps.java
+/home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/pages/EcommerceCartPageElementMap.java
+/home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/pages/EcommerceCartPage.java
 /home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/tests/RunTest.java
+/home/lorenae/POC/POC_Web_Selenium_Java_JUnit/src/test/java/steps/EcommerceCartSteps.java

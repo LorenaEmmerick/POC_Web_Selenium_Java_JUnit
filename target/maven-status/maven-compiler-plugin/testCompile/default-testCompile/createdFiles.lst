@@ -1,8 +1,11 @@
-steps/CommonSteps.class
 pages/CommonPage.class
+pages/EcommerceCartPage.class
 util/Utils.class
 util/TestRule.class
-steps/EcommerceMainSteps.class
 tests/RunTest.class
+steps/CommonSteps.class
+steps/EcommerceCartSteps.class
+steps/EcommerceMainSteps.class
+pages/EcommerceCartPageElementMap.class
 pages/EcommerceMainPage.class
 pages/EcommerceMainPageElementMap.class
