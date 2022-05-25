@@ -8,9 +8,13 @@ import util.TestRule;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features",
-        tags = "@run",
-        glue = {""}
+        features = "./src/test/resources/features",
+        tags = "@run1",
+        glue = {"steps"},
+        plugin = {"pretty", "html:target/cucumber-reports.html",
+                "json:target/cucumber-reports"
+        },
+        monochrome = true
 )
 public class RunTest {
 

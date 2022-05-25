@@ -6,7 +6,7 @@ Funcionalidade: Carrinho
   Contexto:
     Dado que acesso o ecommerce
 
-  @run
+  @run1
   Cenario: Carrinho vazio
     Quando acesso o carrinho
     Entao verifico o carrinho vazio
