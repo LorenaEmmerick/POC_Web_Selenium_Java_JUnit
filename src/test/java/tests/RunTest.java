@@ -11,8 +11,9 @@ import util.TestRule;
         features = "./src/test/resources/features",
         tags = "@run1",
         glue = {"steps"},
-        plugin = {"pretty", "html:target/cucumber-reports.html",
-                "json:target/cucumber-reports"
+        plugin = {"pretty",
+                "html:target/cucumber-reports/cucumber-reports.html",
+                "json:target/cucumber-reports/cucumber-reports.json"
         },
         monochrome = true
 )

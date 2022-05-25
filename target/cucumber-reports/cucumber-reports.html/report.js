@@ -36,7 +36,7 @@ formatter.match({
   "location": "CommonSteps.acessarEcommerce()"
 });
 formatter.result({
-  "duration": 4318919938,
+  "duration": 4162616863,
   "status": "passed"
 });
 formatter.scenario({
@@ -67,14 +67,14 @@ formatter.match({
   "location": "EcommerceCartSteps.acesso_o_carrinho()"
 });
 formatter.result({
-  "duration": 1049271420,
+  "duration": 1267003512,
   "status": "passed"
 });
 formatter.match({
   "location": "EcommerceCartSteps.verifico_o_carrinho_vazio()"
 });
 formatter.result({
-  "duration": 35853538,
+  "duration": 32601812,
   "status": "passed"
 });
 });
