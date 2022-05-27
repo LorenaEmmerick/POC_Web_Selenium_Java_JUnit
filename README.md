@@ -9,7 +9,7 @@
 - [Cucumber](https://cucumber.io/ "Cucumber")
 - [PageFactory](https://github.com/SeleniumHQ/selenium/wiki/PageFactory "PageFactory")
 - [PageObject (pattern)](https://martinfowler.com/bliki/PageObject.html "PageObject")
-
+- [ExtentReportsAdapter](https://ghchirp.tech/2098/ "ExtentReportsAdapter")
 ### ChromeDriver
 
 Faça o download do chromedriver adequado para o seu sistema operacional e adicione no diretório resources/drivers.
