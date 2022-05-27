@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="tests.RunTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="tests.RunTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
@@ -33,7 +33,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.13.0-41-generic"/>
+    <property name="os.version" value="5.13.0-44-generic"/>
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/lorenae"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,8 +63,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Cenario: Carrinho vazio" name="Dado que acesso o ecommerce" time="0.003"/>
+  <testcase classname="Cenario: Carrinho vazio" name="Dado que acesso o ecommerce" time="0.004"/>
   <testcase classname="Cenario: Carrinho vazio" name="Quando acesso o carrinho" time="0"/>
   <testcase classname="Cenario: Carrinho vazio" name="Entao verifico o carrinho vazio" time="0"/>
+  <testcase classname="Cenario: Carrinho vazio" name="E Fecho o navegador" time="0"/>
   <testcase classname="Cenario: Carrinho vazio" name="Cenario: Carrinho vazio" time="0"/>
 </testsuite>

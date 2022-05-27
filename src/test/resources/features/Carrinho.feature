@@ -10,3 +10,4 @@ Funcionalidade: Carrinho
   Cenario: Carrinho vazio
     Quando acesso o carrinho
     Entao verifico o carrinho vazio
+    E Fecho o navegador

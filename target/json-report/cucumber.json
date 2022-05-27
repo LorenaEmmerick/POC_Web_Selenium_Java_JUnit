@@ -1,0 +1,99 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#encoding: utf-8"
+      },
+      {
+        "line": 3,
+        "value": "#@run"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6093619115,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o ecommerce",
+            "match": {
+              "location": "CommonSteps.acessarEcommerce()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Carrinho vazio",
+        "description": "",
+        "id": "carrinho;carrinho-vazio",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1339809561,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "acesso o carrinho",
+            "match": {
+              "location": "EcommerceCartSteps.acesso_o_carrinho()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 34697230,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verifico o carrinho vazio",
+            "match": {
+              "location": "EcommerceCartSteps.verifico_o_carrinho_vazio()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 95863452,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Fecho o navegador",
+            "match": {
+              "location": "CommonSteps.fecho_Browser()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@run1"
+          }
+        ]
+      }
+    ],
+    "name": "Carrinho",
+    "description": "",
+    "id": "carrinho",
+    "keyword": "Funcionalidade",
+    "uri": "Carrinho.feature"
+  }
+]

@@ -3,6 +3,7 @@ package util;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.junit.AfterClass;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,7 @@ public class TestRule extends TestWatcher {
     public void beforeScenario(Scenario scenario){}
 
     @After
-    public void afterScenario(){
+    public static void afterScenario(){
         if(driver != null){
             driver.close();
             driver.quit();

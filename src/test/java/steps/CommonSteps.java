@@ -1,6 +1,7 @@
 package steps;
 
 import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.E;
 import util.TestRule;
 
 public class CommonSteps {
@@ -11,4 +12,11 @@ public class CommonSteps {
         TestRule.abrirNavegador(ecommerceUrl);
     }
 
+    @E("Fecho o navegador")
+    public void fecho_Browser(){
+        TestRule.afterScenario();
+        }
+
 }
+
+

@@ -17,6 +17,27 @@
                     <target>9</target>
                 </configuration>
             </plugin>
+            <!-- Extent Report -->
+            <plugin>
+                <groupId>tech.grasshopper</groupId>
+                <artifactId>extentreports-cucumberjson-plugin</artifactId>
+                <version>2.10.0</version>
+                <executions>
+                    <execution>
+                        <id>report</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>extentreport</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <cucumberJsonReportDirectory>${project.build.directory}/json-report</cucumberJsonReportDirectory>
+                    <extentPropertiesDirectory>${project.build.testResources[0].directory}</extentPropertiesDirectory>
+                    <displayAllHooks>false</displayAllHooks>
+                    <strictCucumber6Behavior>true</strictCucumber6Behavior>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -24,6 +45,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <extentreports.cucumber>1.1.0</extentreports.cucumber>
     </properties>
 
 
@@ -63,6 +85,13 @@
             <artifactId>cucumber-junit</artifactId>
             <version>1.2.5</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Extent Report -->
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>${extentreports.cucumber}</version>
         </dependency>
 </dependencies>
 

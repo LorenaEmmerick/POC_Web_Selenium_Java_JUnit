@@ -12,8 +12,10 @@ import util.TestRule;
         tags = "@run1",
         glue = {"steps"},
         plugin = {"pretty",
-                "html:target/cucumber-reports/cucumber-reports.html",
-                "json:target/cucumber-reports/cucumber-reports.json"
+                "json:target/json-report/cucumber.json"
+                //"summary",
+                //"com.automation.listeners.AzureTestPlansListener:target/azure",
+                //"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         monochrome = true
 )
@@ -22,4 +24,9 @@ public class RunTest {
     @ClassRule
     public static TestRule testRule = new TestRule();
 
+
+//    plugin = {"pretty",
+//            "html:target/cucumber-reports/cucumber-reports.html",
+//            "json:target/cucumber-reports/cucumber-reports.json"
+//    },
 }
