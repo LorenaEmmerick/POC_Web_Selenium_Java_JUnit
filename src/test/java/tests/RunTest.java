@@ -29,4 +29,16 @@ public class RunTest {
 //            "html:target/cucumber-reports/cucumber-reports.html",
 //            "json:target/cucumber-reports/cucumber-reports.json"
 //    },
+
+//    @CucumberOptions(
+//            features = "src/test/java/features",
+//            glue = {"step"},
+//            dryRun = false,
+//            strict = true,
+//            monochrome = true,
+////		tags = "@AddPlace",
+//            plugin = {"json:target/jsonReports/cucumber-report.json",
+//                    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+//            publish = false
+//    )
 }
