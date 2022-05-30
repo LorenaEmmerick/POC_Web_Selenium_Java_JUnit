@@ -1,19 +1,5 @@
 [
   {
-    "comments": [
-      {
-        "line": 1,
-        "value": "#language: pt"
-      },
-      {
-        "line": 2,
-        "value": "#encoding: utf-8"
-      },
-      {
-        "line": 3,
-        "value": "#@run"
-      }
-    ],
     "line": 4,
     "elements": [
       {
@@ -25,19 +11,20 @@
         "steps": [
           {
             "result": {
-              "duration": 9157357146,
+              "duration": 4773962000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "CommonSteps.acessarEcommerce()"
+              "location": "steps.CommonSteps.acessarEcommerce()"
             },
             "keyword": "Dado "
           }
         ]
       },
       {
+        "start_timestamp": "2022-05-30T20:46:40.423Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -47,44 +34,43 @@
         "steps": [
           {
             "result": {
-              "duration": 2242529107,
+              "duration": 2961842000,
               "status": "passed"
             },
             "line": 11,
             "name": "acesso o carrinho",
             "match": {
-              "location": "EcommerceCartSteps.acesso_o_carrinho()"
+              "location": "steps.EcommerceCartSteps.acesso_o_carrinho()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 128291882,
+              "duration": 62012000,
               "status": "passed"
             },
             "line": 12,
             "name": "verifico o carrinho vazio",
             "match": {
-              "location": "EcommerceCartSteps.verifico_o_carrinho_vazio()"
+              "location": "steps.EcommerceCartSteps.verifico_o_carrinho_vazio()"
             },
             "keyword": "Entao "
           },
           {
             "result": {
-              "duration": 136574465,
+              "duration": 85959000,
               "status": "passed"
             },
             "line": 13,
             "name": "Fecho o navegador",
             "match": {
-              "location": "CommonSteps.fecho_Browser()"
+              "location": "steps.CommonSteps.fecho_Browser()"
             },
             "keyword": "E "
           }
         ],
         "tags": [
           {
-            "line": 9,
             "name": "@run1"
           }
         ]
@@ -94,6 +80,7 @@
     "description": "",
     "id": "carrinho",
     "keyword": "Funcionalidade",
-    "uri": "Carrinho.feature"
+    "uri": "file:src/test/resources/features/Carrinho.feature",
+    "tags": []
   }
 ]

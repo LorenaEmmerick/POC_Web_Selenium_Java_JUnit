@@ -1,9 +1,7 @@
 package util;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import org.junit.AfterClass;
+import io.cucumber.java.*;
+import io.cucumber.java.Scenario;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.WebDriver;

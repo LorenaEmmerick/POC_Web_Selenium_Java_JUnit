@@ -1,11 +1,9 @@
 package steps;
 
-import cucumber.api.java.it.Quando;
-import cucumber.api.java.pt.Entao;
-import org.junit.Assert;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.CommonPage;
+
+import org.junit.*;
+import io.cucumber.java.pt.*;
+
 import pages.EcommerceCartPage;
 
 

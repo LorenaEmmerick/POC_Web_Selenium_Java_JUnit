@@ -1,7 +1,7 @@
 package tests;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 import org.junit.ClassRule;
 import org.junit.runner.RunWith;
 import util.TestRule;
@@ -12,10 +12,8 @@ import util.TestRule;
         tags = "@run1",
         glue = {"steps"},
         plugin = {"pretty",
-                "json:target/json-report/cucumber.json"
-                //"summary",
-                //"com.automation.listeners.AzureTestPlansListener:target/azure",
-                //"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "json:target/jsonReports/cucumber-report.json",
+               // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         },
         monochrome = true
 )
@@ -29,16 +27,18 @@ public class RunTest {
 //            "html:target/cucumber-reports/cucumber-reports.html",
 //            "json:target/cucumber-reports/cucumber-reports.json"
 //    },
-
+//"com.automation.listeners.AzureTestPlansListener:target/azure",
 //    @CucumberOptions(
 //            features = "src/test/java/features",
 //            glue = {"step"},
 //            dryRun = false,
 //            strict = true,
-//            monochrome = true,
+//            monochrome = true, "summary"
 ////		tags = "@AddPlace",
 //            plugin = {"json:target/jsonReports/cucumber-report.json",
 //                    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 //            publish = false
 //    )
+
+
 }

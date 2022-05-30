@@ -12,11 +12,11 @@ Funcionalidade: Pesquisa
     E Fecho o navegador
 
   Esquema do Cenario: Pesquisar produtos
-    Quando pesquiso o produto "<nome_produto>"
+    Quando pesquiso o produto <nome_produto>
     Entao a pesquisa deve retornar resultados
     E Fecho o navegador
     Exemplos:
-      | nome_produto |
-      | t-shirt      |
-      | short        |
-      | shoes        |
+      | nome_produto   |
+      | "t-shirt"      |
+      | "short"        |
+      | "shoes"        |

@@ -1,14 +1,14 @@
 package steps;
 
-import cucumber.api.java.pt.E;
-import cucumber.api.java.pt.Entao;
-import org.junit.Assert;
+import org.junit.*;
+import io.cucumber.java.pt.*;
+
 import pages.EcommerceMainPage;
 
 public class EcommerceMainSteps {
 
-    @E("pesquiso o produto \"(.*)\"")
-    public void pesquisarProduto(String produto){
+    @Quando("pesquiso o produto {string}")
+    public void pesquiso_o_produto(String produto) {
         EcommerceMainPage ecommerceMainPage = new EcommerceMainPage();
         ecommerceMainPage.pesquisarProduto(produto);
     }
