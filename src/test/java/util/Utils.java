@@ -10,6 +10,7 @@ public class Utils {
             driverPath = driverPath + "chromedriver";
         }
         System.setProperty("webdriver.chrome.driver", driverPath);
+        System.setProperty("webdriver.chrome.whitelistedIps", "");
     }
 
 }

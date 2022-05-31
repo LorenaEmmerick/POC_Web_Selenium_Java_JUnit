@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4773962000,
+              "duration": 4716902000,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-05-30T20:46:40.423Z",
+        "start_timestamp": "2022-05-31T14:15:27.679Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2961842000,
+              "duration": 2237255000,
               "status": "passed"
             },
             "line": 11,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 62012000,
+              "duration": 43096000,
               "status": "passed"
             },
             "line": 12,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 85959000,
+              "duration": 86448000,
               "status": "passed"
             },
             "line": 13,

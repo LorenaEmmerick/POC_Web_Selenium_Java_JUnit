@@ -11,10 +11,8 @@ import util.TestRule;
         features = "./src/test/resources/features",
         tags = "@run1",
         glue = {"steps"},
-        plugin = {"pretty",
-                "json:target/jsonReports/cucumber-report.json",
-               // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-        },
+        plugin = { "summary", "pretty", "json:target/jsonReports/cucumber-report.json",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome = true
 )
 public class RunTest {

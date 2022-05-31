@@ -2,8 +2,11 @@ package util;
 
 import io.cucumber.java.*;
 import io.cucumber.java.Scenario;
+import io.cucumber.plugin.event.Node;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -21,6 +24,12 @@ public class TestRule extends TestWatcher {
 
     @Before
     public void beforeScenario(Scenario scenario){}
+
+    public static void TakeScreenshot(Scenario scenario) {
+        //System.out.println("Capture Screenshot ...");
+        final byte [] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        scenario.attach(screenshot, "image/png", "image");
+    }
 
     @After
     public static void afterScenario(){
