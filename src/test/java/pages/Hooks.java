@@ -8,11 +8,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import util.TestRule;
 
-public class CommonPage {
+public class Hooks {
 
-    protected WebDriver driver = TestRule.getDriver();
+    protected static WebDriver driver = TestRule.getDriver();
 
-    public CommonPage(){}
+    public Hooks(){}
 
     //actions example
     protected void moveToElement(WebElement element){

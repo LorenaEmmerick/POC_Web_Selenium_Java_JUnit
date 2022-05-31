@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class EcommerceMainPageElementMap extends CommonPage {
+public class EcommerceMainPageElementMap extends Hooks {
 
     @FindBy(id = "search_query_top")
     protected WebElement txtPesquisarProduto;

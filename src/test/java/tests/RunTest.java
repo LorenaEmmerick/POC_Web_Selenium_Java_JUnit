@@ -1,8 +1,10 @@
 package tests;
 
+
+import io.cucumber.java.AfterStep;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.junit.ClassRule;
+import org.junit.*;
 import org.junit.runner.RunWith;
 import util.TestRule;
 
@@ -19,24 +21,5 @@ public class RunTest {
 
     @ClassRule
     public static TestRule testRule = new TestRule();
-
-
-//    plugin = {"pretty",
-//            "html:target/cucumber-reports/cucumber-reports.html",
-//            "json:target/cucumber-reports/cucumber-reports.json"
-//    },
-//"com.automation.listeners.AzureTestPlansListener:target/azure",
-//    @CucumberOptions(
-//            features = "src/test/java/features",
-//            glue = {"step"},
-//            dryRun = false,
-//            strict = true,
-//            monochrome = true, "summary"
-////		tags = "@AddPlace",
-//            plugin = {"json:target/jsonReports/cucumber-report.json",
-//                    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-//            publish = false
-//    )
-
 
 }

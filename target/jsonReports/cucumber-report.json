@@ -11,20 +11,20 @@
         "steps": [
           {
             "result": {
-              "duration": 13706971000,
+              "duration": 4196482000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.CommonSteps.acessarEcommerce()"
+              "location": "steps.Hooks.que_acesso_o_ecommerce()"
             },
             "keyword": "Dado "
           }
         ]
       },
       {
-        "start_timestamp": "2022-05-31T14:22:22.969Z",
+        "start_timestamp": "2022-05-31T21:06:49.147Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5268452000,
+              "duration": 1124272000,
               "status": "passed"
             },
             "line": 11,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 31641000,
+              "duration": 30185000,
               "status": "passed"
             },
             "line": 12,
@@ -55,18 +55,6 @@
               "location": "steps.EcommerceCartSteps.verifico_o_carrinho_vazio()"
             },
             "keyword": "Entao "
-          },
-          {
-            "result": {
-              "duration": 83882000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Fecho o navegador",
-            "match": {
-              "location": "steps.CommonSteps.fecho_Browser()"
-            },
-            "keyword": "E "
           }
         ],
         "tags": [

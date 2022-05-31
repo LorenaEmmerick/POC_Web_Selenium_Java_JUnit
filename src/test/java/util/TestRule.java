@@ -1,8 +1,6 @@
 package util;
 
 import io.cucumber.java.*;
-import io.cucumber.java.Scenario;
-import io.cucumber.plugin.event.Node;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.OutputType;
@@ -25,10 +23,11 @@ public class TestRule extends TestWatcher {
     @Before
     public void beforeScenario(Scenario scenario){}
 
-    public static void TakeScreenshot(Scenario scenario) {
-        //System.out.println("Capture Screenshot ...");
-        final byte [] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-        scenario.attach(screenshot, "image/png", "image");
+
+    public void TakeScreenshot(Scenario scenario){
+            final byte [] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", "image");
+            System.out.println("Capture Screenshot ...");
     }
 
     @After
