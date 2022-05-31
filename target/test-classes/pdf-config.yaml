@@ -1,62 +1,62 @@
-passColor: 05a167
-failColor: ff00ff
-skipColor: a89132
+passColor: 00A347
+failColor: F51A0D
+skipColor: FFB424
 displayFeature: true
 displayScenario: true
 displayDetailed: true
 
 summaryConfig:
-  title: Automation - Automation test
-  dataBackgroundColor: 4F0CC8
-  titleColor: FF0000
-  dateColor: 969696
+  title: Automation Web Selenium
+  dataBackgroundColor: 9C9C9C
+  titleColor: 0019BA
+  dateColor: 454545
   #startTimeColor: 000000
   #endTimeColor: 000000
-  #durationColor: 000000
+  #durationColor: 00A347
   dial:
     featureRanges: 60 95
     scenarioRanges: 70 90
     stepRanges: 75 85
-    badColor: f768a1
-    averageColor: 93ffff
-    goodColor: 32ecab
+    badColor: F5968D
+    averageColor: FFCD7D
+    goodColor: B9F3E3
 
 featureConfig:
   #itemcount: 10
-  totalColor: FF0000
-  durationColor: FF0000
+  totalColor: 0019BA
+  durationColor: 000000
 
 scenarioConfig:
   #itemcount: 12
-  totalColor: FF0000
-  durationColor: FF0000
+  totalColor: 0019BA
+  durationColor: 000000
 
 detailedFeatureConfig:
-  featureNameColor: FF0000
+  featureNameColor: 0019BA
   startEndTimeColor: 000000
-  tagColor: 404040
+  tagColor: 0DB4FC
   dataHeaderColor: FFFFFF
-  dataBackgroundColor: 404040
+  dataBackgroundColor: 9C9C9C
   totalColor: 0000FF
-  durationColor: FFFFFF
-  durationBackgroundColor: 404040
+  durationColor: 000000
+  durationBackgroundColor: 9C9C9C
 
 detailedScenarioConfig:
-  featureNameColor: C0C0C0
-  scenarioNameColor: FF0000
+  featureNameColor: 404040
+  scenarioNameColor: 0019BA
   startEndTimeColor: 000000
-  tagColor: 404040
+  tagColor: 7817E6
   dataHeaderColor: FFFFFF
-  dataBackgroundColor: 404040
+  dataBackgroundColor: 9C9C9C
   totalColor: 0000FF
-  durationColor: FFFFFF
-  durationBackgroundColor: 404040
-  stepChartBarColor: 7f32a8
+  durationColor: 7817E6
+  durationBackgroundColor: FFFFFF
+  stepChartBarColor: 7817E6
 
 detailedStepHookConfig:
-  stepTextColor: 0000FF
-  hookTextColor: 00FF00
-  durationColor: FF0000
+  stepTextColor: 0019BA
+  hookTextColor: 009900
+  durationColor: 000000
   errorMsgColor: 000000
   logMsgColor: 000000
     #mediaMsgColor: FF0000
