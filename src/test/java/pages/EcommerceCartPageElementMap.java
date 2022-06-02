@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class EcommerceCartPageElementMap extends Hooks {
+public class EcommerceCartPageElementMap extends HooksPage {
 
         @FindBy(css = "a[title='View my shopping cart']")
         protected WebElement btnCarrinho;

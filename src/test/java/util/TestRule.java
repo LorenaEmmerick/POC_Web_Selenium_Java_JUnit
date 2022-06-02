@@ -3,15 +3,13 @@ package util;
 import io.cucumber.java.*;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestRule extends TestWatcher {
 
-    private static WebDriver driver;
+    protected static WebDriver driver;
 
     public TestRule(){
         super();
@@ -24,13 +22,6 @@ public class TestRule extends TestWatcher {
     public void beforeScenario(Scenario scenario){}
 
 
-    public void TakeScreenshot(Scenario scenario){
-            final byte [] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", "image");
-            System.out.println("Capture Screenshot ...");
-    }
-
-    @After
     public static void afterScenario(){
         if(driver != null){
             driver.close();
@@ -43,10 +34,6 @@ public class TestRule extends TestWatcher {
         super.finished(description);
     }
 
-    public static WebDriver getDriver(){
-        return driver;
-    }
-
     public static void abrirNavegador(String url){
         ChromeOptions chromeOpts = new ChromeOptions();
         chromeOpts.addArguments("start-maximized");
@@ -56,5 +43,4 @@ public class TestRule extends TestWatcher {
         driver.manage().window().maximize();
         driver.navigate().to(url);
     }
-
 }

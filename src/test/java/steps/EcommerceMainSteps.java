@@ -4,6 +4,7 @@ import org.junit.*;
 import io.cucumber.java.pt.*;
 
 import pages.EcommerceMainPage;
+import pages.HooksPage;
 
 public class EcommerceMainSteps {
 
@@ -16,6 +17,7 @@ public class EcommerceMainSteps {
     @Entao("a pesquisa deve retornar resultados")
     public void validarQuePesquisaRetornouResultados(){
         EcommerceMainPage ecommerceMainPage = new EcommerceMainPage();
+        HooksPage.waitOf(60);
         Assert.assertTrue("O resultado da pesquisa está vazio.", ecommerceMainPage.isPesquisaRetornouResultados());
     }
 }

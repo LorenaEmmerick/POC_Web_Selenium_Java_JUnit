@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4196482000,
+              "duration": 6667205000,
               "status": "passed"
             },
             "line": 7,
@@ -19,22 +19,44 @@
             "match": {
               "location": "steps.Hooks.que_acesso_o_ecommerce()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1561000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.faço_o_screenshot2()"
+                }
+              }
+            ],
             "keyword": "Dado "
           }
         ]
       },
       {
-        "start_timestamp": "2022-05-31T21:06:49.147Z",
+        "start_timestamp": "2022-06-02T00:19:33.337Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
         "id": "carrinho;carrinho-vazio",
+        "after": [
+          {
+            "result": {
+              "duration": 86755000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.afterCloseBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Cenario",
         "steps": [
           {
             "result": {
-              "duration": 1124272000,
+              "duration": 983131000,
               "status": "passed"
             },
             "line": 11,
@@ -42,11 +64,22 @@
             "match": {
               "location": "steps.EcommerceCartSteps.acesso_o_carrinho()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 713000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.faço_o_screenshot2()"
+                }
+              }
+            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 30185000,
+              "duration": 39680000,
               "status": "passed"
             },
             "line": 12,
@@ -54,12 +87,23 @@
             "match": {
               "location": "steps.EcommerceCartSteps.verifico_o_carrinho_vazio()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 199000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.faço_o_screenshot2()"
+                }
+              }
+            ],
             "keyword": "Entao "
           }
         ],
         "tags": [
           {
-            "name": "@run1"
+            "name": "@run"
           }
         ]
       }
@@ -69,6 +113,128 @@
     "id": "carrinho",
     "keyword": "Funcionalidade",
     "uri": "file:src/test/resources/features/Carrinho.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3922863000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o ecommerce",
+            "match": {
+              "location": "steps.Hooks.que_acesso_o_ecommerce()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 321000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.faço_o_screenshot2()"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-02T00:19:41.195Z",
+        "line": 10,
+        "name": "Pesquisar produto",
+        "description": "",
+        "id": "pesquisa;pesquisar-produto",
+        "after": [
+          {
+            "result": {
+              "duration": 85480000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.afterCloseBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1488360000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "pesquiso o produto \"t-shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"t-shirt\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.EcommerceMainSteps.pesquiso_o_produto(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 535000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.faço_o_screenshot2()"
+                }
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 33890000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a pesquisa deve retornar resultados",
+            "match": {
+              "location": "steps.EcommerceMainSteps.validarQuePesquisaRetornouResultados()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 243000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.faço_o_screenshot2()"
+                }
+              }
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisa",
+    "description": "",
+    "id": "pesquisa",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Pesquisa.feature",
     "tags": []
   }
 ]
