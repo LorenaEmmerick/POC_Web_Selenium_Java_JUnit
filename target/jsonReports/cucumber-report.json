@@ -11,22 +11,22 @@
         "steps": [
           {
             "result": {
-              "duration": 6667205000,
+              "duration": 4728706000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.que_acesso_o_ecommerce()"
+              "location": "steps.Hooks.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 1561000,
+                  "duration": 805000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.faço_o_screenshot2()"
+                  "location": "steps.Hooks.afterStepTakeScreenshot()"
                 }
               }
             ],
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T00:19:33.337Z",
+        "start_timestamp": "2022-06-02T00:28:11.584Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 86755000,
+              "duration": 85988000,
               "status": "passed"
             },
             "match": {
@@ -56,22 +56,22 @@
         "steps": [
           {
             "result": {
-              "duration": 983131000,
+              "duration": 1244590000,
               "status": "passed"
             },
             "line": 11,
             "name": "acesso o carrinho",
             "match": {
-              "location": "steps.EcommerceCartSteps.acesso_o_carrinho()"
+              "location": "steps.EcommerceCartSteps.acessoCarrinho()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 713000,
+                  "duration": 230000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.faço_o_screenshot2()"
+                  "location": "steps.Hooks.afterStepTakeScreenshot()"
                 }
               }
             ],
@@ -79,22 +79,22 @@
           },
           {
             "result": {
-              "duration": 39680000,
+              "duration": 31719000,
               "status": "passed"
             },
             "line": 12,
             "name": "verifico o carrinho vazio",
             "match": {
-              "location": "steps.EcommerceCartSteps.verifico_o_carrinho_vazio()"
+              "location": "steps.EcommerceCartSteps.verificoCarrinhoVazio()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 199000,
+                  "duration": 188000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.faço_o_screenshot2()"
+                  "location": "steps.Hooks.afterStepTakeScreenshot()"
                 }
               }
             ],
@@ -127,22 +127,22 @@
         "steps": [
           {
             "result": {
-              "duration": 3922863000,
+              "duration": 3959915000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.que_acesso_o_ecommerce()"
+              "location": "steps.Hooks.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 321000,
+                  "duration": 340000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.faço_o_screenshot2()"
+                  "location": "steps.Hooks.afterStepTakeScreenshot()"
                 }
               }
             ],
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T00:19:41.195Z",
+        "start_timestamp": "2022-06-02T00:28:17.769Z",
         "line": 10,
         "name": "Pesquisar produto",
         "description": "",
@@ -159,7 +159,7 @@
         "after": [
           {
             "result": {
-              "duration": 85480000,
+              "duration": 85542000,
               "status": "passed"
             },
             "match": {
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1488360000,
+              "duration": 1048961000,
               "status": "passed"
             },
             "line": 11,
@@ -184,16 +184,16 @@
                   "offset": 19
                 }
               ],
-              "location": "steps.EcommerceMainSteps.pesquiso_o_produto(java.lang.String)"
+              "location": "steps.EcommerceMainSteps.pesquisoProduto(java.lang.String)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 535000,
+                  "duration": 240000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.faço_o_screenshot2()"
+                  "location": "steps.Hooks.afterStepTakeScreenshot()"
                 }
               }
             ],
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 33890000,
+              "duration": 28989000,
               "status": "passed"
             },
             "line": 12,
@@ -212,11 +212,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 243000,
+                  "duration": 201000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.faço_o_screenshot2()"
+                  "location": "steps.Hooks.afterStepTakeScreenshot()"
                 }
               }
             ],

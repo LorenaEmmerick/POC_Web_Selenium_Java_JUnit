@@ -6,13 +6,13 @@ package steps;
 public class GoogleSteps {
 
         @Quando("pesquiso o item {string}")
-        public void pesquiso_o_item(String item) {
+        public void pesquisoItem(String item) {
                 GooglePage googleMainPage = new GooglePage();
                 googleMainPage.pesquisarItem(item);
         }
 
         @Entao("verifico as imagens")
-        public void verifico_as_imagens() {
+        public void verificoImagens() {
                 GooglePage googleMainPage = new GooglePage();
                 googleMainPage.verificoImagens();
         }

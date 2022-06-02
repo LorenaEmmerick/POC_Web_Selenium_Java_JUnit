@@ -9,7 +9,7 @@ import pages.HooksPage;
 public class EcommerceMainSteps {
 
     @Quando("pesquiso o produto {string}")
-    public void pesquiso_o_produto(String produto) {
+    public void pesquisoProduto(String produto) {
         EcommerceMainPage ecommerceMainPage = new EcommerceMainPage();
         ecommerceMainPage.pesquisarProduto(produto);
     }

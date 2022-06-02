@@ -11,13 +11,13 @@ import pages.EcommerceCartPage;
 public class EcommerceCartSteps {
 
     @Quando("acesso o carrinho")
-    public void acesso_o_carrinho() {
+    public void acessoCarrinho() {
         EcommerceCartPage ecommerceCartPage = new EcommerceCartPage();
         ecommerceCartPage.acessarCarrinho();
     }
 
     @Entao("verifico o carrinho vazio")
-    public void verifico_o_carrinho_vazio() {
+    public void verificoCarrinhoVazio() {
         EcommerceCartPage ecommerceCartPage = new EcommerceCartPage();
         Assert.assertEquals("Your shopping cart is empty.", ecommerceCartPage.isAlertaCarrinhoVazio());
     }

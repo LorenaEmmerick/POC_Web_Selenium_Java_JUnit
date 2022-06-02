@@ -32,7 +32,7 @@ public class HooksPage extends TestRule {
     public static void TakeScreenshot(Scenario scenario){
         final byte [] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         scenario.attach(screenshot, "image/png", "image");
-        System.out.println("Capture Screenshot ...");
+        System.out.println("Capture Screenshot final ;D ...");
     }
 
 
