@@ -1,12 +1,9 @@
 package steps;
 
-
 import org.junit.*;
 import io.cucumber.java.pt.*;
 
 import pages.EcommerceCartPage;
-
-
 
 public class EcommerceCartSteps {
 

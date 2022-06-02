@@ -27,7 +27,11 @@ Instale as dependências do pom com Maven:
 mvn clean install
 ```
 
-Rode o comando para executar o teste de exemplo:
+Rode os comandos para executar o testes de exemplo:
 ```
 mvn test
+ou
+mvn clean test -Dcucumber.filter.tags=@run
+ou
+mvn clean test -Dtest=RunTest
 ```

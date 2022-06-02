@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4728706000,
+              "duration": 5424258000,
               "status": "passed"
             },
             "line": 7,
@@ -22,11 +22,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 805000,
+                  "duration": 894000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.afterStepTakeScreenshot()"
+                  "location": "steps.Hooks.TakeScreenshot()"
                 }
               }
             ],
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T00:28:11.584Z",
+        "start_timestamp": "2022-06-02T01:01:26.495Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -43,11 +43,11 @@
         "after": [
           {
             "result": {
-              "duration": 85988000,
+              "duration": 87547000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.afterCloseBrowser()"
+              "location": "steps.Hooks.tearDown()"
             }
           }
         ],
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1244590000,
+              "duration": 1172438000,
               "status": "passed"
             },
             "line": 11,
@@ -67,11 +67,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 230000,
+                  "duration": 275000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.afterStepTakeScreenshot()"
+                  "location": "steps.Hooks.TakeScreenshot()"
                 }
               }
             ],
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 31719000,
+              "duration": 30606000,
               "status": "passed"
             },
             "line": 12,
@@ -90,11 +90,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 188000,
+                  "duration": 183000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.afterStepTakeScreenshot()"
+                  "location": "steps.Hooks.TakeScreenshot()"
                 }
               }
             ],
@@ -127,7 +127,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3959915000,
+              "duration": 4662964000,
               "status": "passed"
             },
             "line": 7,
@@ -138,11 +138,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 340000,
+                  "duration": 339000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.afterStepTakeScreenshot()"
+                  "location": "steps.Hooks.TakeScreenshot()"
                 }
               }
             ],
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T00:28:17.769Z",
+        "start_timestamp": "2022-06-02T01:01:33.291Z",
         "line": 10,
         "name": "Pesquisar produto",
         "description": "",
@@ -159,11 +159,11 @@
         "after": [
           {
             "result": {
-              "duration": 85542000,
+              "duration": 82052000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.afterCloseBrowser()"
+              "location": "steps.Hooks.tearDown()"
             }
           }
         ],
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1048961000,
+              "duration": 2726771000,
               "status": "passed"
             },
             "line": 11,
@@ -189,11 +189,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 240000,
+                  "duration": 405000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.afterStepTakeScreenshot()"
+                  "location": "steps.Hooks.TakeScreenshot()"
                 }
               }
             ],
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 28989000,
+              "duration": 35298000,
               "status": "passed"
             },
             "line": 12,
@@ -212,11 +212,344 @@
             "after": [
               {
                 "result": {
-                  "duration": 201000,
+                  "duration": 208000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.afterStepTakeScreenshot()"
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4087431000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o ecommerce",
+            "match": {
+              "location": "steps.Hooks.accessEcommerce()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 227000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-02T01:01:40.820Z",
+        "line": 20,
+        "name": "Pesquisar produtos",
+        "description": "",
+        "id": "pesquisa;pesquisar-produtos;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 90723000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1149538000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "pesquiso o produto \"t-shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"t-shirt\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.EcommerceMainSteps.pesquisoProduto(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 224000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 31344000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a pesquisa deve retornar resultados",
+            "match": {
+              "location": "steps.EcommerceMainSteps.validarQuePesquisaRetornouResultados()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 171000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4158349000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o ecommerce",
+            "match": {
+              "location": "steps.Hooks.accessEcommerce()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 224000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-02T01:01:46.197Z",
+        "line": 21,
+        "name": "Pesquisar produtos",
+        "description": "",
+        "id": "pesquisa;pesquisar-produtos;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86477000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1299149000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "pesquiso o produto \"short\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"short\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.EcommerceMainSteps.pesquisoProduto(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 372000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 28369000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a pesquisa deve retornar resultados",
+            "match": {
+              "location": "steps.EcommerceMainSteps.validarQuePesquisaRetornouResultados()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 161000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3977648000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o ecommerce",
+            "match": {
+              "location": "steps.Hooks.accessEcommerce()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 273000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-02T01:01:51.779Z",
+        "line": 22,
+        "name": "Pesquisar produtos",
+        "description": "",
+        "id": "pesquisa;pesquisar-produtos;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 81866000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1444292000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "pesquiso o produto \"shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shoes\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.EcommerceMainSteps.pesquisoProduto(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 232000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 30500000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a pesquisa deve retornar resultados",
+            "match": {
+              "location": "steps.EcommerceMainSteps.validarQuePesquisaRetornouResultados()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 180000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hooks.TakeScreenshot()"
                 }
               }
             ],

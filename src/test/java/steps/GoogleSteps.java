@@ -1,7 +1,8 @@
 package steps;
 
-        import io.cucumber.java.pt.*;
-        import pages.GooglePage;
+import io.cucumber.java.pt.*;
+
+import pages.GooglePage;
 
 public class GoogleSteps {
 

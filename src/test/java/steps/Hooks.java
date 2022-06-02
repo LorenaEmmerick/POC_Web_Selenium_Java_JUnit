@@ -4,6 +4,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
+
 import pages.HooksPage;
 import util.TestRule;
 
@@ -30,22 +31,15 @@ public class Hooks {
     }
 
     @AfterStep
-    public void afterStepTakeScreenshot(){
-
-        System.out.println("Capture Screenshot :D ... :D ... :D ... :D ...");
+    public void TakeScreenshot(){
+        System.out.println("Take Screenshot :D ... :D ... :D ... :D ... Tem que implementar");
     }
+
     @After
-    public void afterCloseBrowser(){
+    public void tearDown(){
         System.out.println("Fecha TUDOOOO :D ... :D ... :D ... :D ...");
         TestRule.afterScenario();
     }
-
-//    @AfterStep
-//    public void faço_o_screenshot2(){
-//        TestRule.TakeScreenshot(Scenario);
-//    }
-
-
 
 }
 

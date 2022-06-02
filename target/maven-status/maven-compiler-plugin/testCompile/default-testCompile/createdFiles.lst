@@ -1,6 +1,11 @@
+pages/GooglePage.class
+pages/GooglePageElementMap.class
+steps/GoogleSteps.class
 pages/EcommerceCartPage.class
 util/Utils.class
 util/TestRule.class
+steps/Hooks.class
+pages/HooksPage.class
 tests/RunTest.class
 steps/EcommerceCartSteps.class
 steps/EcommerceMainSteps.class

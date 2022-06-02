@@ -35,5 +35,4 @@ public class HooksPage extends TestRule {
         System.out.println("Capture Screenshot final ;D ...");
     }
 
-
 }
