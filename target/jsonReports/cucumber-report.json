@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5424258000,
+              "duration": 7754170000,
               "status": "passed"
             },
             "line": 7,
@@ -22,7 +22,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 894000,
+                  "duration": 1623000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T01:01:26.495Z",
+        "start_timestamp": "2022-06-07T15:54:50.182Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 87547000,
+              "duration": 88854000,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1172438000,
+              "duration": 2731151000,
               "status": "passed"
             },
             "line": 11,
@@ -67,7 +67,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 275000,
+                  "duration": 246000,
                   "status": "passed"
                 },
                 "match": {
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 30606000,
+              "duration": 30691000,
               "status": "passed"
             },
             "line": 12,
@@ -90,7 +90,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 183000,
+                  "duration": 193000,
                   "status": "passed"
                 },
                 "match": {
@@ -127,7 +127,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4662964000,
+              "duration": 5445592000,
               "status": "passed"
             },
             "line": 7,
@@ -138,7 +138,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 339000,
+                  "duration": 329000,
                   "status": "passed"
                 },
                 "match": {
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T01:01:33.291Z",
+        "start_timestamp": "2022-06-07T15:55:00.885Z",
         "line": 10,
         "name": "Pesquisar produto",
         "description": "",
@@ -159,7 +159,7 @@
         "after": [
           {
             "result": {
-              "duration": 82052000,
+              "duration": 88308000,
               "status": "passed"
             },
             "match": {
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2726771000,
+              "duration": 1778256000,
               "status": "passed"
             },
             "line": 11,
@@ -189,7 +189,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 405000,
+                  "duration": 401000,
                   "status": "passed"
                 },
                 "match": {
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 35298000,
+              "duration": 37850000,
               "status": "passed"
             },
             "line": 12,
@@ -212,7 +212,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 208000,
+                  "duration": 246000,
                   "status": "passed"
                 },
                 "match": {
@@ -238,7 +238,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4087431000,
+              "duration": 4095718000,
               "status": "passed"
             },
             "line": 7,
@@ -249,7 +249,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 227000,
+                  "duration": 322000,
                   "status": "passed"
                 },
                 "match": {
@@ -262,7 +262,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T01:01:40.820Z",
+        "start_timestamp": "2022-06-07T15:55:08.250Z",
         "line": 20,
         "name": "Pesquisar produtos",
         "description": "",
@@ -270,7 +270,7 @@
         "after": [
           {
             "result": {
-              "duration": 90723000,
+              "duration": 82077000,
               "status": "passed"
             },
             "match": {
@@ -283,7 +283,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1149538000,
+              "duration": 1937141000,
               "status": "passed"
             },
             "line": 16,
@@ -300,7 +300,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 224000,
+                  "duration": 290000,
                   "status": "passed"
                 },
                 "match": {
@@ -312,7 +312,7 @@
           },
           {
             "result": {
-              "duration": 31344000,
+              "duration": 32331000,
               "status": "passed"
             },
             "line": 17,
@@ -323,7 +323,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 171000,
+                  "duration": 162000,
                   "status": "passed"
                 },
                 "match": {
@@ -349,7 +349,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4158349000,
+              "duration": 5413577000,
               "status": "passed"
             },
             "line": 7,
@@ -360,7 +360,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 224000,
+                  "duration": 261000,
                   "status": "passed"
                 },
                 "match": {
@@ -373,7 +373,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T01:01:46.197Z",
+        "start_timestamp": "2022-06-07T15:55:14.406Z",
         "line": 21,
         "name": "Pesquisar produtos",
         "description": "",
@@ -381,7 +381,7 @@
         "after": [
           {
             "result": {
-              "duration": 86477000,
+              "duration": 88118000,
               "status": "passed"
             },
             "match": {
@@ -394,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1299149000,
+              "duration": 1736008000,
               "status": "passed"
             },
             "line": 16,
@@ -411,7 +411,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 372000,
+                  "duration": 299000,
                   "status": "passed"
                 },
                 "match": {
@@ -423,7 +423,7 @@
           },
           {
             "result": {
-              "duration": 28369000,
+              "duration": 28730000,
               "status": "passed"
             },
             "line": 17,
@@ -434,7 +434,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 161000,
+                  "duration": 162000,
                   "status": "passed"
                 },
                 "match": {
@@ -460,7 +460,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3977648000,
+              "duration": 9421183000,
               "status": "passed"
             },
             "line": 7,
@@ -471,7 +471,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 273000,
+                  "duration": 244000,
                   "status": "passed"
                 },
                 "match": {
@@ -484,7 +484,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-02T01:01:51.779Z",
+        "start_timestamp": "2022-06-07T15:55:21.680Z",
         "line": 22,
         "name": "Pesquisar produtos",
         "description": "",
@@ -492,7 +492,7 @@
         "after": [
           {
             "result": {
-              "duration": 81866000,
+              "duration": 88404000,
               "status": "passed"
             },
             "match": {
@@ -505,7 +505,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1444292000,
+              "duration": 145888000,
               "status": "passed"
             },
             "line": 16,
@@ -522,7 +522,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 232000,
+                  "duration": 217000,
                   "status": "passed"
                 },
                 "match": {
@@ -534,7 +534,7 @@
           },
           {
             "result": {
-              "duration": 30500000,
+              "duration": 8042704000,
               "status": "passed"
             },
             "line": 17,
@@ -545,7 +545,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 180000,
+                  "duration": 229000,
                   "status": "passed"
                 },
                 "match": {
