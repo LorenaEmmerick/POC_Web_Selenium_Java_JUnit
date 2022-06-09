@@ -11,22 +11,22 @@
         "steps": [
           {
             "result": {
-              "duration": 7754170000,
+              "duration": 10771337000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.accessEcommerce()"
+              "location": "steps.HooksSteps.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 1623000,
+                  "duration": 3377000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T15:54:50.182Z",
+        "start_timestamp": "2022-06-09T15:22:43.332Z",
         "line": 10,
         "name": "Carrinho vazio",
         "description": "",
@@ -43,11 +43,11 @@
         "after": [
           {
             "result": {
-              "duration": 88854000,
+              "duration": 90375000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.tearDown()"
+              "location": "steps.HooksSteps.tearDown()"
             }
           }
         ],
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2731151000,
+              "duration": 4063023000,
               "status": "passed"
             },
             "line": 11,
@@ -67,11 +67,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 246000,
+                  "duration": 478000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 30691000,
+              "duration": 38337000,
               "status": "passed"
             },
             "line": 12,
@@ -90,11 +90,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 193000,
+                  "duration": 330000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -127,22 +127,22 @@
         "steps": [
           {
             "result": {
-              "duration": 5445592000,
+              "duration": 9653200000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.accessEcommerce()"
+              "location": "steps.HooksSteps.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 329000,
+                  "duration": 247000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T15:55:00.885Z",
+        "start_timestamp": "2022-06-09T15:22:58.407Z",
         "line": 10,
         "name": "Pesquisar produto",
         "description": "",
@@ -159,11 +159,11 @@
         "after": [
           {
             "result": {
-              "duration": 88308000,
+              "duration": 91953000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.tearDown()"
+              "location": "steps.HooksSteps.tearDown()"
             }
           }
         ],
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1778256000,
+              "duration": 153785000,
               "status": "passed"
             },
             "line": 11,
@@ -189,11 +189,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 401000,
+                  "duration": 219000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 37850000,
+              "duration": 2077965000,
               "status": "passed"
             },
             "line": 12,
@@ -212,11 +212,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 246000,
+                  "duration": 453000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -238,22 +238,22 @@
         "steps": [
           {
             "result": {
-              "duration": 4095718000,
+              "duration": 4168327000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.accessEcommerce()"
+              "location": "steps.HooksSteps.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 322000,
+                  "duration": 346000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -262,7 +262,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T15:55:08.250Z",
+        "start_timestamp": "2022-06-09T15:23:10.418Z",
         "line": 20,
         "name": "Pesquisar produtos",
         "description": "",
@@ -270,11 +270,11 @@
         "after": [
           {
             "result": {
-              "duration": 82077000,
+              "duration": 100463000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.tearDown()"
+              "location": "steps.HooksSteps.tearDown()"
             }
           }
         ],
@@ -283,7 +283,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1937141000,
+              "duration": 3415762000,
               "status": "passed"
             },
             "line": 16,
@@ -300,11 +300,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 290000,
+                  "duration": 620000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -312,7 +312,7 @@
           },
           {
             "result": {
-              "duration": 32331000,
+              "duration": 55226000,
               "status": "passed"
             },
             "line": 17,
@@ -323,11 +323,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 162000,
+                  "duration": 466000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -349,22 +349,22 @@
         "steps": [
           {
             "result": {
-              "duration": 5413577000,
+              "duration": 3716595000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.accessEcommerce()"
+              "location": "steps.HooksSteps.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 261000,
+                  "duration": 517000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -373,7 +373,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T15:55:14.406Z",
+        "start_timestamp": "2022-06-09T15:23:18.170Z",
         "line": 21,
         "name": "Pesquisar produtos",
         "description": "",
@@ -381,11 +381,11 @@
         "after": [
           {
             "result": {
-              "duration": 88118000,
+              "duration": 87747000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.tearDown()"
+              "location": "steps.HooksSteps.tearDown()"
             }
           }
         ],
@@ -394,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1736008000,
+              "duration": 1140087000,
               "status": "passed"
             },
             "line": 16,
@@ -411,11 +411,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 299000,
+                  "duration": 289000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -423,7 +423,7 @@
           },
           {
             "result": {
-              "duration": 28730000,
+              "duration": 35587000,
               "status": "passed"
             },
             "line": 17,
@@ -434,11 +434,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 162000,
+                  "duration": 228000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -460,22 +460,22 @@
         "steps": [
           {
             "result": {
-              "duration": 9421183000,
+              "duration": 6053800000,
               "status": "passed"
             },
             "line": 7,
             "name": "que acesso o ecommerce",
             "match": {
-              "location": "steps.Hooks.accessEcommerce()"
+              "location": "steps.HooksSteps.accessEcommerce()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 244000,
+                  "duration": 1185000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -484,7 +484,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T15:55:21.680Z",
+        "start_timestamp": "2022-06-09T15:23:23.161Z",
         "line": 22,
         "name": "Pesquisar produtos",
         "description": "",
@@ -492,11 +492,11 @@
         "after": [
           {
             "result": {
-              "duration": 88404000,
+              "duration": 92447000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.Hooks.tearDown()"
+              "location": "steps.HooksSteps.tearDown()"
             }
           }
         ],
@@ -505,7 +505,7 @@
         "steps": [
           {
             "result": {
-              "duration": 145888000,
+              "duration": 167960000,
               "status": "passed"
             },
             "line": 16,
@@ -522,11 +522,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 217000,
+                  "duration": 222000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],
@@ -534,7 +534,7 @@
           },
           {
             "result": {
-              "duration": 8042704000,
+              "duration": 1143507000,
               "status": "passed"
             },
             "line": 17,
@@ -545,11 +545,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 229000,
+                  "duration": 511000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "steps.Hooks.TakeScreenshot()"
+                  "location": "steps.HooksSteps.TakeScreenshot()"
                 }
               }
             ],

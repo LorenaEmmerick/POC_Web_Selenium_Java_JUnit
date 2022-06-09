@@ -1,5 +1,6 @@
 package pages;
 
+import elements.EcommerceMainPageElementMap;
 import org.openqa.selenium.support.PageFactory;
 
 public class EcommerceMainPage extends EcommerceMainPageElementMap {

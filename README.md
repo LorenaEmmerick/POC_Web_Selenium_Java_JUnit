@@ -1,5 +1,5 @@
 # POC Web Selenium
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+
 >Projeto de exemplo para automações web, com Selenium, Java e Cucumber automatiza uma aplicação web e-commerce
 
 ## ⚒️ Recursos utilizados
@@ -48,3 +48,4 @@ O relatório JSON é gerado automaticamente dentro do diretório ``target/jsonRe
 ### Extent Adapter
 O relatórios são gerados automaticamente dentro do diretório ``test-output`` é gerado reporter HTML, JSON e PDF
 
+[⬆ Voltar ao topo](#POC-Web-Selenium)<br>

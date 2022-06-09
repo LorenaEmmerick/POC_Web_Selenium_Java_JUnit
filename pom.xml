@@ -10,7 +10,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>opin-srv-fornecimento-automacao-web</name>
-    <url>https://opin.tu.digiseg.com.br/open-insurance/</url>
 
     <properties>
         <java.version>1.8</java.version>

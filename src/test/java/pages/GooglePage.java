@@ -1,5 +1,6 @@
 package pages;
 
+import elements.GooglePageElementMap;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.PageFactory;
 
