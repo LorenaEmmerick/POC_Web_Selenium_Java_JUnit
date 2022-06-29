@@ -32,13 +32,13 @@ Instale as dependências do pom com Maven:
 mvn clean install
 ```
 ## 🏃 Escolha um runner
-***Para escolher um runner, utilize os parâmetros:***
+*Para escolher um runner, utilize os parâmetros:*
 
 - ` Dtest=RunTest`
 >Runner é onde vamos agrupar as tags do cucumber. Funciona como uma suite de teste.
 
 ## 💻 Escolha da Plataforma
-**Em construção**
+**Em construção (...)**
 
 > Atualmente o browser padrão é o chrome (...) em construção para os demais browsers.
 
