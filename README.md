@@ -5,8 +5,8 @@
 ## ⚒️ Recursos utilizados
 
 ### Tecnologias
-- [Maven](https://maven.apache.org/ "Maven")
 - [Java](https://www.java.com/pt_BR/ "Java")
+- [Maven](https://maven.apache.org/ "Maven")
 - [JUnit](https://junit.org/junit4/ "JUnit")
 - [Selenium](https://www.seleniumhq.org/ "Selenium")
 - [ChromeDriver](https://chromedriver.chromium.org/downloads "ChromeDriver")
@@ -15,10 +15,10 @@
 - [PageObject (pattern)](https://martinfowler.com/bliki/PageObject.html "PageObject")
 - [ExtentReportsAdapter](https://ghchirp.tech/2098/ "ExtentReportsAdapter")
 
-### ChromeDriver
+### 💻 ChromeDriver
 
->Faça o download do chromedriver adequado para o seu sistema operacional e adicione no diretório resources/drivers.
-Local para download: https://chromedriver.chromium.org/downloads
+> Faça o download do chromedriver adequado para o seu sistema operacional e adicione no diretório resources/drivers.
+> Local para download: https://chromedriver.chromium.org/downloads
 > 
 ## 💻 Configurações para o Linux Ubuntu:
 
@@ -31,6 +31,18 @@ Instale as dependências do pom com Maven:
 ```
 mvn clean install
 ```
+## 🏃 Escolha um runner
+***Para escolher um runner, utilize os parâmetros:***
+
+- ` Dtest=RunTest`
+>Runner é onde vamos agrupar as tags do cucumber. Funciona como uma suite de teste.
+
+## 💻 Escolha da Plataforma
+**Em construção**
+
+> Atualmente o browser padrão é o chrome (...) em construção para os demais browsers.
+
+
 ## 🚀 Execução dos Testes
 Rode os comandos para executar o testes de exemplo:
 ```
@@ -43,9 +55,9 @@ mvn clean test -Dtest=RunTest
 ## 📜 Geração de relatórios
 
 ### Cucumber
-O relatório JSON é gerado automaticamente dentro do diretório ``target/jsonRepports``
+O relatório JSON é gerado automaticamente dentro do diretório ``target/jsonReports``
 
 ### Extent Adapter
-O relatórios são gerados automaticamente dentro do diretório ``test-output`` é gerado reporter HTML, JSON e PDF
+O relatórios são gerados automaticamente dentro do diretório ``test-output`` nos formatos HTML, JSON e PDF
 
 [⬆ Voltar ao topo](#POC-Web-Selenium)<br>

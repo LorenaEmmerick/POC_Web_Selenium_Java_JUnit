@@ -38,7 +38,6 @@ public class TestRule extends TestWatcher {
         ChromeOptions chromeOpts = new ChromeOptions();
         chromeOpts.addArguments("start-maximized");
         Utils.setDriverByOS();
-
         driver = new ChromeDriver(chromeOpts);
         driver.manage().window().maximize();
         driver.navigate().to(url);
